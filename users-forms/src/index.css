@@ -35,9 +35,17 @@
   border-color: #29664B;
 }
 
+.inputFirstName:focus {
+  background-color: #73AB8A;
+}
+
 .inputLastName {
   margin-inline-start: 23px;
   border-color: #29664B;
+}
+
+.inputLastName:focus {
+  background-color: #73AB8A;
 }
 
 .inputEmail {
@@ -45,9 +53,17 @@
   border-color: #29664B;
 }
 
+.inputEmail:focus {
+  background-color: #73AB8A;
+}
+
 .inputPassword {
   margin-inline-start: 39px;
   border-color: #29664B;
+}
+
+.inputPassword:focus {
+  background-color: #73AB8A;
 }
 
 .inputCheckbox {
@@ -57,6 +73,7 @@
 .labelCheckbox {
   margin-top: 20px;
   font-size: small;
+  accent-color: #29664B;
 }
 
 .image {
@@ -81,22 +98,8 @@
   margin-bottom: 60px;
 }
 
-.or-divider {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin: 20px 0;
+.tittleLog {
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
-.or-divider hr {
-  flex: 1;
-  height: 1px;
-  background-color: #ccc;
-  border: none;
-}
-
-.or-divider span {
-  margin: 0 10px;
-  color: #888;
-  font-size: 14px;
-}
