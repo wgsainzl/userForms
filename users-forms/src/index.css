@@ -11,18 +11,92 @@
   flex-direction: row;
   justify-content: space-around;
   width: 50%;
-  background-color: aliceblue;
 }
 
 .rightContainer {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content:center;
+  align-items: center;
   width: 50%;
-  background-color: rgb(255, 190, 166);
+  margin-left: 30px;
 }
 
 .labelInput {
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-left: 5px;
+  font-size:xx-large;
+  width: 350px;
+}
+
+.inputFirstName {
+  margin-inline-start: 19px;
+  border-color: #29664B;
+}
+
+.inputLastName {
+  margin-inline-start: 23px;
+  border-color: #29664B;
+}
+
+.inputEmail {
+  margin-inline-start: 85px;
+  border-color: #29664B;
+}
+
+.inputPassword {
+  margin-inline-start: 39px;
+  border-color: #29664B;
+}
+
+.inputCheckbox {
+  font-size: small;
+}
+
+.labelCheckbox {
+  margin-top: 20px;
+  font-size: small;
+}
+
+.image {
+  width: 100%;
+  height: 930px;
+}
+
+.registerButton {
+  background-color: #73AB8A;
+  border-color: #29664B;
+  border-radius: 10%;
+  font-size: large;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.registerButton:hover {
+  background-color: #29664B;
+}
+
+.tittle {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.or-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.or-divider hr {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+.or-divider span {
+  margin: 0 10px;
+  color: #888;
+  font-size: 14px;
 }
