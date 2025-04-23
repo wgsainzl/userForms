@@ -1,0 +1,28 @@
+
+
+.registerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  background-color: aliceblue;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  background-color: rgb(255, 190, 166);
+}
+
+.labelInput {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
