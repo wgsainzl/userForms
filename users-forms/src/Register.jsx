@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import img1 from "./images/Wallpaper.jpeg";
+import { spotifyAPI } from "./api/spotifyAPI.js";
+
 
 const Register = () => {
   const [form, setForm] = useState({
@@ -23,6 +25,14 @@ const Register = () => {
     console.log(newForm);
     setForm(newForm);
   };
+
+  const handleRegistro = async() => {
+    const url = "http://localhost:3000/api/users";
+    console.log(form);
+    const data = JSON.stringify(form); 
+    const res = await spotifyAPI(url, 'POST', data, null);
+    console.log(res);
+  }
 
   return (
     <>
@@ -85,7 +95,7 @@ const Register = () => {
               <u>terms and policy</u>
             </b>
           </label>
-          <button className="registerButton">Sign Up</button>
+          <button onClick={handleRegistro} className="registerButton">Sign Up</button>
           <hr></hr>
         </div>
       </div>
